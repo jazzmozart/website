@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>木渔 - 服务应用框架DEMO</title>
+        <meta name="description" content="专注于服务应用框架，通过简单快速的实践操作帮助大家快速了解使用方法，快速应用于生产环境。">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="http://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">
+    </head>
+    <body class="muyu-body">
+      <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="/">木渔</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="/write">创作<span class="sr-only">(current)</span></a>
+              <!-- <a class="nav-item nav-link" href="#">Features</a>
+              <a class="nav-item nav-link" href="#">Pricing</a>
+              <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-3 col-12">
+            <nav class="nav flex-column muyu-nav">
+              <div><a>Docker</a></div>
+              <div>
+                <ol class="">
+                  <li><a class="nav-link" href="#">简介</a></li>
+                  <li><a class="nav-link active" href="#">快速入门</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-md-9 col-12">
+            <embed height="415" class="w-100" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=17312067&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+            <h2>快速搭建nginx服务</h2><p><br></p><ol><li>获取镜像：docker pull nginx</li><li>生成容器：docker run -p:80:80 nginx</li><li>启动容器：docker container start &lt;container-id&gt;</li><li>停止容器：docker container stop &lt;container-id&gt;</li></ol><p><br></p><p>其他命令</p><ol><li>获取本地镜像列表：docker images</li><li>获取本地容器列表：docker container ps -a</li></ol>
+          </div>
+        </div>
+      </div>
+      </section>
+      <footer class="container-fluid bg-light text-center mt-5 muyu-footer">
+        <div class="row align-items-center pt-2">
+          <p class="col">专注于服务应用框架，通过简单快速的实践操作帮助大家快速了解使用方法，快速应用于生产环境。</p>
+          <span class="w-100"/>
+          <p class="col text-secondary">muyu@muyus.com</p>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+      <script src="https://cdn.quilljs.com/1.3.4/quill.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <script src="http://vjs.zencdn.net/6.4.0/video.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+          window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+          ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
